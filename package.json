@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aneeshthunga.github.io/CalorieTracker/",
   "name": "calorie-app",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write src/**/*.ts{,x}"
+    "format": "prettier --write src/**/*.ts{,x}",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
